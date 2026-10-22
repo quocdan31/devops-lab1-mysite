@@ -12,6 +12,9 @@ on:
   workflow_dispatch:        # Cho phép chạy thủ công từ GitHub UI
 
 # === Các job trong pipeline ===
+permissions:
+  contents: write
+
 jobs:
 
   # Job 1: Build & Deploy
